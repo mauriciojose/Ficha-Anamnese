@@ -1,0 +1,176 @@
+:root {
+    --cor-principal: #FFD700;
+    --cor-secundaria: #FFFFFF;
+    --cor-fundo: #222;
+  
+    --size-a4: 29.7cm;
+  }
+  
+    * {
+          margin: 0;
+          padding: 0;
+          outline: 0;
+          box-sizing: border-box;
+      }
+  
+    body {
+      background: var(--cor-fundo); 
+      margin: 0;
+      padding: 2% 0;
+      font-family: 'Inconsolata' !important;
+      font-size: 12px !important;
+    }
+
+    page {
+        background: white;
+        display: block;
+        margin: 0 auto;
+        box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+      }
+    page[size="A4"] {  
+        /* width: 21cm; */
+        /* min-height: var(--size-a4); */
+        width: 60%;
+    }
+    page[size="A4"][layout="landscape"] {
+        width: 29.7cm;
+        height: 21cm;  
+    }
+
+    page header{
+        display: flex;
+        flex-direction: column;
+        padding: 0 4%;
+    }
+    page header div.cabecalho{
+        display: flex;
+    }
+    page header div.informacoes{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2%;
+    }
+    page header div.informacoes div.item{
+        width: 100%;
+        display: flex;
+    }
+    page header div.informacoes div.item div.informacao{
+        width: 100%;
+        padding: 0 2% 0 0;
+        display: flex;
+    }
+    page header div.informacoes div.item div.informacao span{
+        width: auto;
+        font-size: 12pt;
+        font-weight: 600;
+        white-space: nowrap;
+    }
+    page header div.informacoes div.item div.informacao input{
+        width: 100%;
+        border:0;
+        border-bottom:1px solid #555;  
+        margin-left: 2%;
+    }
+    page header div.cabecalho div.img img{
+        width: 150px;
+        height: 120px;
+    }
+    page header div.cabecalho div.text{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-right: 150px;
+        font-size: 22pt;
+        font-weight: 500;
+    }
+    form{
+        padding: 4% 1.5% 4% 0;
+    }
+
+    form div.form-row{
+        display: flex;
+        flex-direction: column;
+        margin: 2% 4%;
+    }
+    form div.form-row label{
+        font-weight: 600;
+        font-size: 12pt;
+        margin-bottom: 1%;
+    }
+    form .form-row div.form-group{
+        padding: 0 2%;
+    }
+    form .form-row input.form-input-text{
+        border:0;
+        border-bottom:1px solid #555;  
+        background:transparent;
+        width:100%;
+        padding:8px 0 5px 0;
+        font-size:16px;
+        color:#000;
+    }
+    form .form-row select{
+        width: 50%;
+    }
+    form .form-row input.form-input-text:focus{ 
+        border:none;	
+        outline:none;
+        border-bottom:1px solid #ccc;	
+       }
+    form .form-row div.form-group span{
+        margin-left: 3px;
+        font-size: 12pt;
+        margin-right: 10px;
+    }
+    form .form-row div.form-group input.form-input-radio{
+        margin-left: 4px;
+    }
+
+
+    div.none{
+        display: none !important;
+    }
+
+    footer{
+        padding-left: 1.5%;
+        padding-bottom: 1.5%;
+        line-height: 1.1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+
+    @media only screen and (max-width: 760px) {
+        page[size="A4"] {  
+            /* width: 21cm; */
+            /* min-height: var(--size-a4); */
+            width: 70%;
+        }
+      }
+
+
+    @media only screen and (max-width: 650px) {
+        page[size="A4"] {  
+            /* width: 21cm; */
+            /* min-height: var(--size-a4); */
+            width: 80%;
+        }
+      }
+
+      @media only screen and (max-width: 585px) {
+        page[size="A4"] {  
+            /* width: 21cm; */
+            /* min-height: var(--size-a4); */
+            width: 90%;
+        }
+      }
+      @media only screen and (max-width: 435px) {
+        page[size="A4"] {  
+            /* width: 21cm; */
+            /* min-height: var(--size-a4); */
+            width: 96%;
+        }
+      }

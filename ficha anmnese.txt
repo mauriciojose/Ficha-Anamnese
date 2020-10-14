@@ -1,0 +1,80 @@
+Anamnese 
+
+Treino Personalizado
+
+? Nome:
+?Data de nascimento:
+? Endereço:
+?Tel
+? Profissão
+  ? Trabalha qts horas por dia :
+? E-mail
+?Peso:
+?Estatura:
+
+
+
+1. Prática atividade física? Qual modalidade?
+
+2. Sente algumas dessas sensações quando faz exercícios?
+  (.   ) Tontura
+   (.   ) Enjoo
+   (.    ) Mal estar
+Algum outro desconforto?
+
+3. Faz quantas refeições por dia ?
+4. Bebe quantos litros de água por dia aproximadamente?
+5. Faz dieta ou suplementação? Comente
+6. Consome bebidas alcoólicas?
+(.   ) Diariamente
+(.   ) 2× por semana
+(.   )1 × por semana 
+(.   ) 2 × por mês
+
+6. Dorme quantas horas por noite ?
+
+7. Fuma? Quantos cigarros por dia ? Se parou, há quanto tempo?
+
+8. Possue colesterol alto? (.  ) Sim (   ) Não. Se souber os valores ,preencha abaixo:
+HDL :.                   LDL :
+
+9. Possue triglicérides alto?  (.   ) Sim.  (    ) Não
+ 
+10. É diabético?  (.  ) Sim (.   ) Não
+Tipo I 
+Tipo II
+
+11. É hipertenso ?
+
+12. Possue alguma alteração cardíaca.
+
+13. Algum parente com problemas cardíacos?
+
+14. Tem problemas respiratórios?
+
+15. Toma algum tipo de medicamento ou droga ?
+
+16. Tem alguma alergia?
+
+17. Fez alguma cirurgia?
+
+18. Sente dores na coluna , articulações ou dores musculares? Comente
+
+
+19. Possue algum problema ortopédico diagnosticado ?
+  
+20. Tem alguma recomendação ou restrição médica para prática de exercícios ?
+
+21. Fez teste de esforço , ergométrico ou ergoespirométrico recentemente ( menos de 1 ano ) ?
+ 
+22. Acompanhamento nutricional ?
+
+23. Qual o seu objetivo com a nova prática de exercícios físicos ?
+
+24. Gostaria de fazer algum outro comentário que possa ajudar na montagem do seu programa de treinamento.?
+
+
+
+Personal Trainer 
+Ediana Santos 
+Cref 014385/ Ba
